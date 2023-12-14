@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>TraveliFY</title>
+</head>
+
+<body>
+    <!-- section 1 start (nav, img slider, Plan Area) -->
+    <section class="section-1">
+        <nav class="navbar-container">
+            <div class="logo">
+                <span id="log1">Traveli</span>
+                <span id="log2">FYY</span>
+            </div>
+            <ul class="nav-links">
+                <li>How it Works</li>
+                <li>Start Planning</li>
+                <li>Blog</li>
+                <li>Reviews</li>
+                <li>Contact</li>
+            </ul>
+            <div class="login-signup">
+                <i class="fa-solid fa-bars drop-down" id="bar-btn"></i>
+                <button class="btn btn-login sec6" id="login-btn" >Login</button>
+                <button class="btn btn-btn2 sec6" id="signup-btn" >Signup</button>
+            </div>
+        </nav>
+        <nav class="dropdown-menu drop-down">
+            <ul class="nav-links drop-down">
+                <li class="drop-down">How it Works</li>
+                <li class="drop-down">Start Planning</li>
+                <li class="drop-down">Blog</li>
+                <li class="drop-down">Reviews</li>
+                <li class="drop-down">Contact</li>
+            </ul>
+            <div class="login-signup drop-down">
+                <button class="btn btn-login sec6 drop-down" id="login-btn" >Login</button>
+                <button class="btn btn-btn2 sec6 drop-down" id="signup-btn" >Signup</button>
+            </div>
+        </nav>
+        <div class="img-slider-container">
+            <div class="img-slider">
+                <!-- img slide start -->
+                <div class="img-slide">
+                    <div class="placename">
+                        <h1>Dubai</h1>
+                    </div>
+                    <img src="./images/locations/dubai/Dubai.jpg" alt="slide1">
+                </div>
+                <!-- img slide end -->
+                <!-- img slide start -->
+                <div class="img-slide">
+                    <div class="placename">
+                        <h1>Mumbai</h1>
+                    </div>
+                    <img src="./images/locations/mumbai/hotal-taj.jpg" alt="slide1">
+                </div>
+                <!-- img slide end -->
+                <!-- img slide start -->
+                <div class="img-slide">
+                    <div class="placename">
+                        <h1>Amritsar</h1>
+                    </div>
+                    <img src="./images/locations/amritsar/Amritsar2.jpg" alt="slide1">
+                </div>
+                <!-- img slide end -->
+                <!-- img slide start -->
+                <div class="img-slide">
+                    <div class="placename">
+                        <h1>Delhi</h1>
+                    </div>
+                    <img src="./images/locations/delhi/delhi2.jpg" alt="slide1">
+                </div>
+                <!-- img slide end -->
+                <!-- img slide start -->
+                <div class="img-slide">
+                    <div class="placename">
+                        <h1>Andaman</h1>
+                    </div>
+                    <img src="./images/locations/andaman/Andaman.jpg" alt="slide1">
+                </div>
+                <!-- img slide end -->
+                <!-- img slide start -->
+                <div class="img-slide">
+                    <div class="placename">
+                        <h1>London</h1>
+                    </div>
+                    <img src="./images/locations/london/londan2.jpg" alt="slide1">
+                </div>
+                <!-- img slide end -->
+
+                <!-- img slide start -->
+                <div class="img-slide">
+                    <div class="placename">
+                        <h1>Paris</h1>
+                    </div>
+                    <img src="./images/locations/paris/paris.jpg" alt="slide1">
+                </div>
+                <!-- img slide end -->
+
+                <!-- img slide start -->
+                <div class="img-slide">
+                    <div class="placename">
+                        <h1>Shimla</h1>
+                    </div>
+                    <img src="./images/locations/shimla/Shimla2.jpg" alt="slide1">
+                </div>
+                <!-- img slide end -->
+
+                <!-- img slide start -->
+                <div class="img-slide">
+                    <div class="placename">
+                        <h1>Goa</h1>
+                    </div>
+                    <img src="./images/locations/goa/goa2.jpg" alt="slide1">
+                </div>
+                <!-- img slide end -->
+
+                <!-- img slide start -->
+                <div class="img-slide">
+                    <div class="placename">
+                        <h1>Bali</h1>
+                    </div>
+                    <img src="./images/locations/bali/bali.jpeg" alt="slide1">
+                </div>
+                <!-- img slide end -->
+
+                <!-- img slide start -->
+                <div class="img-slide">
+                    <div class="placename">
+                        <h1>Agra</h1>
+                    </div>
+                    <img src="./images/locations/agra/tajmahal.jpg" alt="slide1">
+                </div>
+                <!-- img slide end -->
+                <!-- img slide start -->
+                <div class="img-slide">
+                    <div class="placename">
+                        <h1>Dubai</h1>
+                    </div>
+                    <img src="./images/locations/dubai/Dubai.jpg" alt="slide1">
+                </div>
+                <!-- img slide end -->
+
+            </div>
+        </div>
+        <div class="plan-area" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+            <h1>FIND THE PERFECT PLACE TO GO</h1>
+            <p>Reaceive personalized recommendations for activities, hotels, and more</p>
+            <div class="input">
+                <i class="fa-regular fa-circle-question"></i>
+                <input type="text" name="what" placeholder="WHAT WOULD YOU LIKE TO DO?">
+                <a class="btn btn-btn2" id="plan-btn" href="#survey-section">Start Planning</a>
+            </div>
+        </div>
+    </section>
+    <!-- section 1 ended -->
+
+    <!-- section 2 start (steps of perfect trip) -->
+    <section class="section-2">
+        <!-- trip-steps start-->
+        <div class="trip-steps">
+            <i class="fa-solid fa-chevron-down"></i>
+            <p>3 STEP TO THE PERFECT TRIP</p>
+            <!-- trip-cards start-->
+            <div class="trip-cards">
+                <div class="trip-card" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="./images/trip/trip.png" alt="">
+                    <p class="tp1">Tell us what you want to do</p>
+                    <p class="tp2">Fill out a 2-minute quistionnare about how you like to travel</p>
+                </div>
+                <div class="trip-card" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="./images/trip/trip2.png" alt="">
+                    <p class="tp1">Tell us what you want to do</p>
+                    <p class="tp2">Fill out a 2-minute quistionnare about how you like to travel</p>
+                </div>
+                <div class="trip-card" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="./images/trip/trip3.png" alt="">
+                    <p class="tp1">Tell us what you want to do</p>
+                    <p class="tp2">Fill out a 2-minute quistionnare about how you like to travel</p>
+                </div>
+            </div>
+            <!-- trip-cards end-->
+            <div class="plan-btn-container">
+                <a class="btn btn-btn2" href="#survey-section" id="plan-btn">LETS PLAN YOUR TRIP</a>
+            </div>
+        </div>
+        <!-- trip-steps end -->
+    </section>
+    <!-- section 2 ended -->
+
+    <!-- section 3 start -->
+    <section class="section-3">
+        <!-- trip-container start -->
+        <div class="trips-container">
+            <!-- trip-heading-container start -->
+            <div class="trip-heading-container">
+                <p>TRIP INSPIRATION</p>
+                <h1>FIND THE PERFECT PLACE TO GO ACTIVITES, HOTELS, AND MORE</h1>
+            </div>
+            <!-- trip-heading-container end -->
+            <!-- trip-btns Container start -->
+            <div class="trip-btns">
+                <a class="btn trip-btn active" data-aos="fade-right" data-aos-duration="1000">ALL</a>
+                <a class="btn trip-btn" data-aos="fade-right" data-aos-duration="1000">ADVENTURE</a>
+                <a class="btn trip-btn">WATER SPORTS</a>
+                <a class="btn trip-btn" data-aos="fade-left" data-aos-duration="1000">HISTORY & CULTURE</a>
+                <a class="btn trip-btn" data-aos="fade-left" data-aos-duration="1000">OTHER ACTIVITES</a>
+            </div>
+            <!-- trip-btns Container end -->
+
+            <!-- Trip-card Container Start -->
+            <div class="trip-cards-container">
+                <i class="fa-solid fa-arrow-right btn-next" id="next-btn"></i>
+                <i class="fa-solid fa-arrow-left btn-prev" id="prev-btn"></i>
+                <!-- all-cards start -->
+
+                <div class="all-card">
+                    <!-- Trip-card start -->
+                    <!-- Hiking -->
+                    <div class="card" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="card-overlay">
+                            <h4><i class="fa-solid fa-star-of-david"></i>HIKING</h4>
+                            <p>An Ultimate Luxury Indian Journey</p>
+                        </div>
+                        <img class="trip-card-img" src="./images/hiking/hike1.jpg" alt="">
+                    </div>
+                    <!-- Animal Watching Safari -->
+                    <div class="card" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="card-overlay">
+                            <h4><i class="fa-solid fa-star-of-david"></i>SAFARI</h4>
+                            <p>A studying of beaten Safari path to india</p>
+                        </div>
+                        <img class="trip-card-img" src="./images/safari/safari4.jpg" alt="">
+                    </div>
+                    <!-- Cycling -->
+                    <div class="card" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="card-overlay">
+                            <h4><i class="fa-solid fa-star-of-david"></i>CYCLING</h4>
+                            <p>The Ultimate Croatian Epicurean Journey</p>
+                        </div>
+                        <img class="trip-card-img" src="./images/cycling/cycling1.jpg" alt="">
+                    </div>
+
+                    <!-- Road Trip -->
+                    <div class="card" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="card-overlay">
+                            <h4><i class="fa-solid fa-star-of-david"></i>ROAD TRIP</h4>
+                            <p>Adventure awaits on every winding road.</p>
+                        </div>
+                        <img class="trip-card-img" src="./images/read-trip/roadtrip-1583526313.jpg" alt="">
+                    </div>
+                    <!-- Kayaking -->
+                    <div class="card" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="card-overlay">
+                            <h4><i class="fa-solid fa-star-of-david"></i>KAYAKING</h4>
+                            <p>Everything about kayaking is enjoyable and relaxing.</p>
+                        </div>
+                        <img class="trip-card-img" src="./images/kayaking/images.jpg" alt="">
+                    </div>
+                    <!-- Cruise Ship -->
+                    <div class="card" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="card-overlay">
+                            <h4><i class="fa-solid fa-star-of-david"></i>CRUISE SHIP</h4>
+                            <p>Cruises are a place to get away from the stress and responsibilities of life.</p>
+                        </div>
+                        <img class="trip-card-img" src="./images/cruise/cruiseship.jpg" alt="">
+                    </div>
+                    <!-- Surfing -->
+                    <div class="card" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="card-overlay">
+                            <h4><i class="fa-solid fa-star-of-david"></i>SURFING</h4>
+                            <p>JOURNEYING Through Nelson Mandela's roots</p>
+                        </div>
+                        <img class="trip-card-img" src="./images/surfing/surfing1.jpg" alt="">
+                    </div>
+
+                    <!-- Whale Watching -->
+                    <div class="card" data-aos="zoom-in" data-aos-duration="800">
+                        <div class="card-overlay">
+                            <h4><i class="fa-solid fa-star-of-david"></i>WHALE WATCHING</h4>
+                            <p>Best of India Safari & Nature Journey</p>
+                        </div>
+                        <img class="trip-card-img" src="./images/whale/whale1.jpg" alt="">
+                    </div>
+                    <!-- Trip-card end -->
+                </div>
+                <!-- all-cards end -->
+
+            </div>
+            <!-- Trip-card Container end -->
+
+        </div>
+        <!-- Trips Container end -->
+    </section>
+    <!-- section 3 ended -->
+
+    <!-- section 5 start (survey Fom and slides)-->
+    <section class="section-5" id="survey-section">
+        <!-- container start -->
+        <div class="container img-only" data-aos="fade-up" data-aos-duration="1000">
+            <!-- survey image start -->
+            <div class="survey-img">
+                <div class="s-qoute">
+                    <p>"Travel makes one modest. You see what a tiny place you occupy in the world."</p>
+                </div>
+                <img src="./images/travlling/1.jpeg" alt="survey-image-1">
+            </div>
+            <!-- survey image end -->
+
+            <!-- survey image start -->
+            <div class="survey-img">
+                <div class="s-qoute">
+                    <p>"The world is a book, and those who do not travel read only one page."</p>
+                </div>
+                <img src="./images/travlling/2.jpg" alt="survey-image-2">
+            </div>
+            <!-- survey image end -->
+
+            <!-- survey image start -->
+            <div class="survey-img">
+                <div class="s-qoute">
+                    <p>"Travel is the only thing you can buy that makes you richer."</p>
+                </div>
+                <img src="./images/travlling/3.jpg" alt="survey-image-3">
+            </div>
+            <!-- survey image end -->
+
+            <!-- survey image start -->
+            <div class="survey-img">
+                <div class="s-qoute">
+                    <p>"A journey is best measured in friends, rather than miles."</p>
+                </div>
+                <img src="./images/travlling/4.jpg" alt="survey-image-4">
+            </div>
+            <!-- survey image end -->
+
+            <!-- survey image start -->
+            <div class="survey-img">
+                <div class="s-qoute">
+                    <p>"Traveling – it leaves you speechless, then turns you into a storyteller."</p>
+                </div>
+                <img src="./images/travlling/5.jpg" alt="survey-image-5">
+            </div>
+            <!-- survey image end -->
+
+            <!-- survey image start -->
+            <div class="survey-img">
+                <div class="s-qoute">
+                    <p>"Life is short, and the world is wide."</p>
+                </div>
+                <img src="./images/travlling/6.jpg" alt="survey-image-6">
+            </div>
+            <!-- survey image end -->
+
+            <!-- survey image start -->
+            <div class="survey-img">
+                <div class="s-qoute">
+                    <p>"Travel makes one modest. You see what a tiny place you occupy in the world."</p>
+                </div>
+                <img src="./images/travlling/1.jpeg" alt="survey-image-1">
+            </div>
+            <!-- survey image end -->
+
+            <!--ALL survey image end -->
+        </div>
+        <!-- container end -->
+
+        <!-- container start -->
+        <div class="container survey-form" data-aos="fade-up" data-aos-duration="1000">
+            <div class="survey-title">
+                <h2>Travel Interest Survey</h2>
+                <p>Thanks so much for your interest in [Your Travel Agency Name]! I'd love to get to know you better before we chat! Can you tell me a little bit about your travel interests?</p>
+            </div>
+            <div class="form-container">
+                <form action="" name="survey-form">
+                    <div class="forms">
+                        <div class="form">
+                            <div class="form-label">
+                                <p>Name</p>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" name="firstname">
+                                <p>First Name</p>
+                            </div>        
+                        </div>
+                        <div class="form">
+                            <div class="form-input">
+                                <input type="text" name="lastname">
+                                <p>Last Name</p>
+                            </div>        
+                        </div>
+                    </div>
+
+                    <!-- phone and email form -->
+                    <div class="forms">
+                        <div class="form">
+                            <div class="form-label">
+                                <p>Phone</p>
+                            </div>
+                            <div class="form-input">
+                                <input type="text" placeholder="(000) 000-0000" name="phone">
+                                <p>.</p>
+                            </div>        
+                        </div>
+                        <div class="form">
+                            <div class="form-label">
+                                <p>Email</p>
+                            </div>
+                            <div class="form-input">
+                                <input type="email" name="email">
+                                <p>example@example.com</p>
+                            </div>        
+                        </div>
+                    </div>
+
+                    <!-- preffered contact method -->
+                    <div class="forms">
+                        <div class="form">
+                            <div class="form-label">
+                                <p>Preferred Contact Method</p>
+                            </div>
+                            <div class="form-input-radio">
+                                <div class="radio">
+                                    <input type="radio" value="Phone" name="phone">
+                                    <p>Phone</p>    
+                                </div>
+                                <div class="radio">
+                                    <input type="radio" value="Email" name="email">
+                                    <p>Email</p>
+                                </div>
+
+                                <div class="radio">
+                                    <input type="radio" value="Either" name="either">
+                                    <p>Either</p>
+                                </div>
+                                <!-- <p>example@example.com</p> -->
+                            </div>        
+                        </div>
+                    </div>
+
+                    <!-- Travel Dates -->
+                    <div class="forms">
+                        <div class="form">
+                            <div class="form-label">
+                                <p>Travel Dates available (from)</p>
+                            </div>
+
+                            <div class="form-input date">
+                                <input type="date" name="date-from">
+                                <p>date</p>
+                            </div>        
+                        </div>
+                        <div class="form">
+                            <div class="form-label">
+                                <p>To</p>
+                            </div>
+
+                            <div class="form-input date">
+                                <input type="date" name="date-to">
+                                <p>date</p>
+                            </div>        
+                        </div>    
+                    </div>
+
+                    <!-- Are your dates flexible -->
+                    <div class="forms">
+                        <div class="form">
+                            <div class="form-label">
+                                <p>Are your dates flexible</p>
+                            </div>
+                            <div class="form-input-radio">
+                                <div class="radio">
+                                    <input type="radio" value="yes" name="yes">
+                                    <p>Yes</p>    
+                                </div>
+                                <div class="radio">
+                                    <input type="radio" value="no" name="no">
+                                    <p>No</p>
+                                </div>
+                            </div>        
+                        </div>
+                    </div>
+
+                    <!-- Tell us more -->
+                    <div class="forms">
+                        <div class="form">
+                            <div class="form-label">
+                                <p>Tell us more about your date flexibility...</p>
+                            </div>
+                            <div class="form-input big">
+                                <input type="text" placeholder="" name="tellmore">
+                                <p>.</p>
+                            </div>        
+                        </div>
+                    </div>
+                    <!-- Tell us more -->
+                    
+                    <div class="survey-btn">
+                        <button class="btn btn-btn2" type="button" id="survey-submit">Next</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <!-- container end -->
+        <div class="thanks-modal center">
+            <i class="fa-solid fa-check"></i>
+            <div class="thanks-title">
+                Thank you.
+            </div>
+            <div class="thanks-desc">
+                Your Details has been successfully Submitted.Thanks!
+            </div>
+            <button class="modal-close-btn btn btn-btn2">ok!</button>
+        </div>
+    
+    </section>
+    <!-- section 5 end -->    
+
+    <!-- section 4 start (FAQ Questions)-->
+    <section class="section-4">
+        <div class="faq-start">
+            <p>MOST ASKED QUESTIONS</p>
+            <h1>FREQUENTLY ASKED QUESTIONS</h1>
+        </div>
+
+        <!-- faq container 1 -->
+        <div class="faq-container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="faq-heading">
+                <div class="faq-title">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <p>DOES IT COST MONEY TO GET A QUOTE?</p>
+                </div>
+                <i class="fa-solid fa-chevron-down faq-btn"></i>
+            </div>
+            <div class="faq-content medium-list">
+                <p>No, there is no fee for our vacation planning services as the travel vendors involved recognize our
+                    value and compensate us from the gross amount paid (what you would have paid even without our
+                    assistance). For those complicated international itineraries that require custom crafting and
+                    significant involvement of our international on-location partners, we do request an intent-to-travel
+                    deposit to begin the process. This deposit is applied to the reservations that are made on your
+                    behalf.</p>
+            </div>
+        </div>
+
+        <!-- faq container 2 -->
+        <div class="faq-container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="faq-heading">
+                <div class="faq-title">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <p>DO I NEED TRAVEL INSURANCE?</p>
+                </div>
+                <i class="fa-solid fa-chevron-down faq-btn"></i>
+            </div>
+            <div class="faq-content large-list">
+                <p>Travel insurance is available and recommended to protect your travel investment. Many trips, such as
+                    tours and cruises, involve non-refundable funds paid months in advance. Travel insurance protects
+                    you from losing this investment. Perhaps even more important is the ‘during travel’ coverage and
+                    assistance that comes with the top-flight insurance companies we carry.</p>
+                <p>Trip interruption due to illness or unforeseen circumstances can be very expensive, and medical care
+                    abroad is often not covered by domestic insurance plans. Also, an increasing number of countries
+                    require proof of medical insurance for travelers entering their country.</p>
+            </div>
+        </div>
+        <!-- faq container 3 -->
+        <div class="faq-container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="faq-heading">
+                <div class="faq-title">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <p>CAN YOU WORK WITHIN A CERTAIN BUDGET?</p>
+                </div>
+                <i class="fa-solid fa-chevron-down faq-btn"></i>
+            </div>
+            <div class="faq-content small-list">
+                <p>Yes, we work within any and all realistic budgets, and an honest sharing of ideas and goals helps us
+                    immensely when making recommendations and suggested edits to travel plans.</p>
+            </div>
+        </div>
+
+        <!-- faq container 4 -->
+        <div class="faq-container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="faq-heading">
+                <div class="faq-title">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <p>WHY SHOULD I USE A TRAVEL AGENT TO BOOK A VACATION?</p>
+                </div>
+                <i class="fa-solid fa-chevron-down faq-btn"></i>
+            </div>
+            <div class="faq-content medium-list">
+                <p>A travel agent takes all of the headache out of planning a trip and handles virtually all aspects of
+                    your travel, at absolutely no cost to you. The combined experience of the team and the feedback from
+                    our thousands of travelers provides an invaluable resource to the traveler planning an important
+                    trip</p>
+            </div>
+        </div>
+
+        <!-- faq container 5 -->
+        <div class="faq-container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="faq-heading">
+                <div class="faq-title">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <p>HOW DO I CANCEL A TRIP?</p>
+                </div>
+                <i class="fa-solid fa-chevron-down faq-btn"></i>
+            </div>
+            <div class="faq-content medium-list">
+                <p>Call us right away. If it’s after normal business hours, please contact the next involved travel
+                    supplier (airline, hotel, tour operator, cruise line) to cancel any reservations you will not be
+                    able to use. If you purchased travel insurance, please contact the insurance company’s 24-hour line
+                    to start the cancellation process and ensure your maximum refund.</p>
+            </div>
+        </div>
+        <p class="faq-all" data-aos="fade-up" data-aos-duration="1000"> VIEW ALL FAQ'S</p>
+    </section>
+    <!-- section 4 ended -->
+
+    <section class="section-6 sec6">
+        <!-- container start -->
+        <div class="container signup sec6">
+            <div class="form-container sec6">
+                <h1 class="sec6">Signup</h1>
+                <div style="background-color: transparent;" class="forms signup sec6">
+                    <form action="" name="signup-form">
+                    <div class="form sec6">
+                        <div class="form-label sec6">
+                            <p class="sec6">Name</p>
+                        </div>
+                        <div class="form-input sec6">
+                            <input type="text" class="sec6" name="name">
+                            <p class="sec6">your full name</p>
+                        </div>        
+                    </div>
+                    <div class="form sec6">
+                        <div class="form-label sec6">
+                            <p class="sec6">Email</p>
+                        </div>
+                        <div class="form-input sec6">
+                            <input type="text" class="sec6" name="email">
+                            <p class="sec6">your email id</p>
+                        </div>        
+                    </div>
+                    <div class="form sec6">
+                        <div class="form-label sec6">
+                            <p class="sec6">Password</p>
+                        </div>
+                        <div class="form-input sec6">
+                            <input type="text" name="password" class="sec6">
+                            <p class="sec6">your Your password</p>
+                        </div>        
+                    </div>
+                    <div class="survey-btn sec6">
+                        <button class="btn btn-btn2 sec6" type="submit">Signup</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+        <!-- container end -->
+        <!-- container start -->
+        <div class="container login sec6">
+            <div class="form-container sec6">
+                <h1 class="sec6">Login</h1>
+                <div style="background-color: transparent;" class="forms login sec6">
+                    <form action="" name="login-form" class="sec6">
+                    <div class="form sec6">
+                        <div class="form-label sec6">
+                            <p class="sec6">Email</p>
+                        </div>
+                        <div class="form-input sec6">
+                            <input type="text" class="sec6" name="input">
+                            <p class="sec6">Enter your email id</p>
+                        </div>        
+                    </div>
+                    <div class="form sec6">
+                        <div class="form-label sec6">
+                            <p class="sec6">Password</p>
+                        </div>
+                        <div class="form-input sec6">
+                            <input type="text" class="sec6" name="password">
+                            <p class="sec6">Enter Your password</p>
+                        </div>        
+                    </div>
+                    <div class="survey-btn sec6">
+                        <button class="btn btn-btn2 sec6" type="submit">Login</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+        <!-- container end -->
+        
+    </section>
+
+    <!-- footer start -->
+    <footer class="site-footer" >
+        <div class="footer-container">
+            <div class="footer-section about-us">
+                <h3>About Us</h3>
+                <p>Discover the world with our amazing travel experiences. We are passionate about creating
+                    unforgettable journeys for our clients.</p>
+            </div>
+
+            <div class="footer-section contact" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Contact Us</h3>
+                <p>Email: info@tech2cool.com</p>
+                <p>Phone: +91 (555) 123-4567</p>
+            </div>
+
+            <div class="footer-section social" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2023 TraveliFY. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <div class="goTopBtn" id="goTopBtn">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
