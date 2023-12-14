@@ -4,7 +4,7 @@
 
   TraveliFYY is fully responsive travel website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="https://tech2cool.github.io/html/traveling%20website/"><strong>➥ Live Demo</strong></a>
+  <a href="https://tech2cool.github.io/TraveliFYY-Travel-Website/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
