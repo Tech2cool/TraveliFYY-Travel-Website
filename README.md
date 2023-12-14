@@ -2,6 +2,9 @@
   
   <h2 align="center">TraveliFYY - Travel website</h2>
 
+  ![GitHub repo size](https://img.shields.io/github/repo-size/Tech2cool/TraveliFYY-Travel-Website)
+
+
   TraveliFYY is fully responsive travel website, 
   <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
   <br />Aswell as some basic animations.
